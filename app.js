@@ -53,25 +53,20 @@ const promptUser = () => {
           return false;
         }  
       }  
-    },
-    {
-      type: 'input',
-      name: 'about',
-      message: 'Provide some information about yourself:'
     }
   ]);
 };
 
 const promptProject = portfolioData => {
-  // If there isn't a 'projects' array property, create one
-  if (!portfolioData.projects) {
-    portfolioData.projects = [];
-  }
   console.log(`
   =================
   Add a New Project
   =================
   `);
+  // If there isn't a 'projects' array property, create one
+  if (!portfolioData.projects) {
+    portfolioData.projects = [];
+  }
     return inquirer.prompt([
       {
         type: 'input',
@@ -127,7 +122,7 @@ const promptProject = portfolioData => {
         message: 'Would you like to enter another project?',
         default: false
       }
-    ]);
+    ])
 };
 
 promptUser()
