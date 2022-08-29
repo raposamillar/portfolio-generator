@@ -21,7 +21,7 @@
   node app
 
   ## Contributing 
-  Developers who have ideas for improvement may fork this project and submit pull requests for review.
+  Developers may fork this project and submit pull requests.
 
   ## Tests
   n/a
