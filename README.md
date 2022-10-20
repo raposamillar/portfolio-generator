@@ -12,7 +12,8 @@
   - [License](#license)
 
   ## Description 
-  This back-end application using Node.js is geared towards developers seeking to build a professional portfolio page quickly.
+  This back-end application using Node.js is geared towards developers seeking to build a professional portfolio page quickly.<br><br>
+  N.B.: Bootcamp study project
   
   ## Installation 
   npm i inquirer@8.2.4
